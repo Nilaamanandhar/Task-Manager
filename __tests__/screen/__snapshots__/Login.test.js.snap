@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assests/image/welcome.jpg",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 40,
+        "zIndex": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 25,
+          "fontWeight": "500",
+          "marginTop": 15,
+          "opacity": 0.5,
+        }
+      }
+    >
+      log in
+    </Text>
+    <View
+      style={
+        Object {
+          "width": "80%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="User Name"
+        placeholderTextColor="white"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "borderColor": "#ededed",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "color": "#fff",
+            "marginBottom": "2%",
+            "padding": 20,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Password"
+        placeholderTextColor="white"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "borderColor": "#ededed",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "color": "#fff",
+            "marginBottom": "2%",
+            "padding": 20,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E91E63",
+            "borderRadius": 20,
+            "display": "flex",
+            "elevation": 8,
+            "height": "20%",
+            "justifyContent": "center",
+            "marginLeft": "35%",
+            "marginTop": 10,
+            "width": "25%",
+          }
+        }
+      >
+        <Text>
+          Login
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "marginTop": 0,
+          }
+        }
+      >
+        username: praful 
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "marginTop": 0,
+          }
+        }
+      >
+        password: praful 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
